@@ -1837,6 +1837,8 @@ linux_handle_syscall_trap (struct lwp_info *lp, int stopping)
   return 1;
 }
 
+/* See target.h.  */
+
 void
 linux_nat_target::follow_clone (ptid_t child_ptid)
 {
